@@ -1,0 +1,48 @@
+<header class="header" id="header">
+    <div class="header-top">
+        <div class="row">
+            <div class="social-icons columns small-6">
+                <a href="#" title="Facebook"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+                <a href="#" title="Twitter"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+                <a href="#" title="Google+"><i aria-hidden="true" class="fa fa-google-plus"></i></a>
+                <a href="#" title="Yelp"><i aria-hidden="true" class="fa fa-yelp"></i></a>
+            </div>
+
+            <div class="contact-links columns small-6 text-right">
+                <a href="tel:1-{{ phone_number }}" title="{{ phone_number }}">
+                    <i aria-hidden="true" class="fa fa-phone"></i>
+                    <span class="show-for-large">{{ phone_number }}</span>
+                </a>
+
+                <a href="mailto:{{ email_address }}">
+                    <i aria-hidden="true" class="fa fa-envelope"></i>
+                    <span class="show-for-large">{{ email_address }}</span>
+                </a>
+
+                <a href="#" class="mobile-menu show-for-small-only">
+                    <i aria-hidden="true" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-main">
+        <div class="row">
+            <div class="logo columns small-12 medium-4 text-center medium-text-left">
+                <a href="/">
+                    <img src="../img/logo.png" />
+                </a>
+            </div>
+
+            <div class="navigation columns small-12 medium-8 text-right show-for-medium">
+                {#
+                <ul class="nav">
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                </ul>
+                #}
+            </div>
+        </div>
+    </div>
+</header>
