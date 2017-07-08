@@ -1,6 +1,66 @@
+body {
+	color: white;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+body .row {
+	max-width: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Zilla Slab', Georgia, serif;
+	font-weight: 600;
+}
+
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+
+.description strong {
+	font-family: 'Zilla Slab', Georgia, serif;
+	font-size: 20px;
+}
+
+.fa {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+#main-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main-container:after {
+	content: '';
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#main-container .content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translate(0, -50%);
+	z-index: 2;
+}
+
 footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	padding: 16px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 14px;
 }
