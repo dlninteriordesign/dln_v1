@@ -55,6 +55,17 @@ h3 { font-size: 20px; }
 	z-index: 2;
 }
 
+.orbit,
+.orbit .orbit-wrapper,
+.orbit .orbit-wrapper .orbit-container {
+	height: 100%;
+}
+
+.orbit .orbit-wrapper .orbit-container li img {
+	max-width: none;
+	max-height: 100%;
+}
+
 footer {
 	position: fixed;
 	bottom: 0;
