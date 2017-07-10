@@ -40,7 +40,7 @@ h3 { font-size: 20px; }
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 	top: 0;
 	left: 0;
 	z-index: 1;
