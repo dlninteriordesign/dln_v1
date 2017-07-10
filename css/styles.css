@@ -64,6 +64,7 @@ h3 { font-size: 20px; }
 .orbit .orbit-wrapper .orbit-container li img {
 	max-width: none;
 	max-height: 100%;
+	width: 100%;
 }
 
 footer {
