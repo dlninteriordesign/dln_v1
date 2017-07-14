@@ -1,6 +1,6 @@
 body {
 	color: white;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
 body .row {
@@ -8,8 +8,8 @@ body .row {
 }
 
 h1, h2, h3 {
-	font-family: 'Zilla Slab', Georgia, serif;
-	font-weight: 600;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
 }
 
 h1 { font-size: 30px; }
@@ -17,8 +17,30 @@ h2 { font-size: 24px; }
 h3 { font-size: 20px; }
 
 .description strong {
-	font-family: 'Zilla Slab', Georgia, serif;
-	font-size: 20px;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.logo {
+	padding-bottom: 40px;
+}
+
+.logo h1 {
+	font-size: 44px;
+	font-weight: 300;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	margin-bottom: 0;
+}
+
+.logo h3 {
+	font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    letter-spacing: 8.25px;
+    margin-top: 0;
+    line-height: 4px;
+    padding-left: 10px;
 }
 
 .fa {
