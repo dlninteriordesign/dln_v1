@@ -22,6 +22,18 @@ h3 { font-size: 20px; }
 	font-weight: 600;
 }
 
+.contact-info {
+	margin-top: 40px;
+	display: inline-block;
+	padding: 20px 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-info a {
+	color: white;
+	font-weight: 600;
+}
+
 .logo {
 	padding-bottom: 40px;
 }
