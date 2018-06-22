@@ -1,0 +1,23 @@
+.orbit {
+    &:after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .orbit-container {
+        .orbit-slide.is-active {
+            transition: display 200ms ease;
+        }
+
+        img {
+            max-width: none;
+            max-height: 100%;
+            width: 100%;
+        }
+    }
+}

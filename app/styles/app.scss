@@ -1,103 +1,20 @@
 @import "settings";
+
 @import "font-awesome";
+
 @import "foundation-sites/foundation";
 @import "foundation-sites/util/util";
 @include foundation-everything;
 
-body {
-    color: white;
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
-}
+@import "motion-ui";
+@include motion-ui-animations;
+@include motion-ui-transitions;
 
-h1, h2, h3 {
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-weight: 400;
-}
+@import "body";
 
-h1 { font-size: 30px; }
-h2 { font-size: 24px; }
-h3 { font-size: 20px; }
+@import "components/app-header";
+@import "components/app-footer";
 
-.description strong {
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-}
+@import "components/app-carousel";
 
-.contact-info {
-    margin-top: 40px;
-    display: inline-block;
-    padding: 20px 40px;
-    background-color: rgba(0, 0, 0, 0.5);
-
-    a {
-        color: white;
-        font-weight: 600;
-    }
-}
-
-.logo {
-    padding-bottom: 40px;
-
-    h1 {
-        font-size: 44px;
-        font-weight: 300;
-        font-family: 'Raleway', Helvetica, Arial, sans-serif;
-        margin-bottom: 0;
-    }
-
-    h3 {
-        font-size: 14px;
-        font-weight: 600;
-        font-family: 'Raleway', Helvetica, Arial, sans-serif;
-        letter-spacing: 8.25px;
-        margin-top: 0;
-        line-height: 4px;
-        padding-left: 10px;
-    }
-}
-
-#main-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    
-    &:after {
-        content: '';
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        top: 0;
-        left: 0;
-        z-index: 1;
-    }
-    
-    .content {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: 100%;
-        transform: translate(0, -50%);
-        z-index: 2;
-    }
-}
-
-.orbit .orbit-container li img {
-    max-width: none;
-    max-height: 100%;
-    width: 100%;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 16px 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 14px;
-}
+@import "routes/index";
